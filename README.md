@@ -18,7 +18,7 @@ Each manager loads its data from its CSV file on first use and can save the curr
 
 ```
 policy_management_system/
-├── policyholder.py      # PolicyHolder, PolicyManager
+├── policy.py      # PolicyHolder, PolicyManager
 ├── payment.py            # Payment, PaymentManager
 ├── product.py             # Product, ProductManager
 ├── main.py                # Demo script
@@ -28,7 +28,7 @@ policy_management_system/
 
 ## Features
 
-### Policyholder Management (`policyholder.py`)
+### Policyholder Management (`policy.py`)
 - `register(name, account_number)` — adds a new policyholder, rejecting duplicate account numbers
 - `suspend(account_number)` — marks a policyholder as suspended
 - `reactivate(account_number)` — restores a suspended policyholder to active status
